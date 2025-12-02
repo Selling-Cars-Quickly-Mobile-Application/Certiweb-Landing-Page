@@ -76,12 +76,14 @@
             font-size: 2.5rem;
             margin-bottom: 20px;
             color: #fbb901;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
         }
 
         .hero p {
             font-size: 1.2rem;
             margin-bottom: 40px;
             line-height: 1.6;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
         }
 
         .btn-container {
@@ -277,26 +279,52 @@
         }
 
         .grid-column {
-            padding: 1rem;
+            padding: 2.5rem;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .grid-column:hover {
+            transform: translateY(-5px);
         }
 
         .grid-column p {
-          color: #555; 
-          line-height: 1.6; 
+          color: #1a1a1a; 
+          line-height: 1.8; 
+          font-size: 1.15rem;
+          font-weight: 400;
         }
 
         
         .feature {
           display: flex; 
           align-items: flex-start; 
-          margin-bottom: 10px; 
+          margin-bottom: 25px; 
+          padding: 10px;
+          border-radius: 10px;
+          transition: background-color 0.3s ease;
+        }
+
+        .feature:hover {
+            background-color: #f9f9f9;
         }
 
         .feature-icon {
-          margin-right: 10px;
+          margin-right: 15px;
           font-weight: bold; 
-          min-width: 20px; 
+          min-width: 35px; 
           text-align: center;
+          font-size: 1.5rem;
+          background-color: #f0f4f8;
+          padding: 5px;
+          border-radius: 50%;
+          height: 45px;
+          width: 45px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
 
        
@@ -431,71 +459,7 @@
             resize: vertical;
         }
 
-        .grid-container {
-          display: grid; 
-          grid-template-columns: 1fr 1fr;
-          gap: 20px; 
-          align-items: start; 
-        }
 
-        .container {
-          max-width: 1200px; 
-          margin: 0 auto; 
-          padding: 20px; 
-        }
-
-        
-        .section-title {
-          font-size: 1.8em; 
-          margin-bottom: 15px; 
-          color: #123325; 
-        }
-
-        .grid-column {
-            padding: 1rem;
-        }
-
-        .grid-column p {
-          color: #555; 
-          line-height: 1.6; 
-        }
-
-        
-        .feature {
-          display: flex; 
-          align-items: flex-start; 
-          margin-bottom: 10px; 
-        }
-
-        .feature-icon {
-          margin-right: 10px;
-          font-weight: bold; 
-          min-width: 20px; 
-          text-align: center;
-        }
-
-       
-        .about-content {
-          display: flex;
-          flex-direction: column; 
-          align-items: center;
-          text-align: center; 
-          gap: 1rem
-        }
-
-        .about-icon img {
-            width: 150px;
-            height: auto;
-            object-fit: cover;
-            border-radius: 8px;
-        }
-        
-        @media (max-width: 768px) {
-          .grid-container {
-            grid-template-columns: 1fr; 
-            gap: 30px; 
-          }
-        }
 
                 /* Team Video Section */
         .team-video {
@@ -726,7 +690,7 @@
         </div>
         <div class="hero-content">
             <img src="Images/logo.svg" alt="CertiWeb Logo" class="logo">
-            <h1 data-lang-es="Tu camino certificado hacia una venta de auto segura" data-lang-en="Your certified path to a safe car sale">Tu camino certificado hacia una venta de auto segura</h1>
+            <h1 data-lang-es="Certifica tu auto, gana confianza y véndelo al instante" data-lang-en="Certify your car, gain trust, and sell it instantly">Certifica tu auto, gana confianza y véndelo al instante</h1>
             <p data-lang-es="Deshágase del valor real de su vehículo con una certificación profesional. Venda más rápido, venda de forma más rentable." data-lang-en="Unlock the real value of your vehicle with a professional certification. Sell faster, sell more profitably.">Deshágase del valor real de su vehículo con una certificación profesional. Venda más rápido, venda de forma más rentable.</p>
             <div class="btn-container">
                 <a href="https://selling-cars-quickly-scq.github.io/certiweb-frontend/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-lang-es="Regístrate" data-lang-en="Sign Up">Regístrate</a>
@@ -741,7 +705,7 @@
             <h2 class="section-title" data-lang-es="Conoce más sobre CertiWeb" data-lang-en="Learn more about CertiWeb">Conoce más sobre CertiWeb</h2>
             <div class="video-container">
                 <iframe 
-                    src="https://www.youtube.com/embed/WNKtjdryxfI"
+                    src="https://www.youtube.com/embed/4lNkdEiuBT4"
                     width="100%" 
                     height="400" 
                     frameborder="0" 
@@ -915,7 +879,7 @@
             <h2 class="section-title" data-lang-es="Conoce a nuestro equipo" data-lang-en="Meet our team">Conoce a nuestro equipo</h2>
             <div class="video-container">
                 <iframe 
-                    src="https://www.youtube.com/embed/4gZoolBqgq8"
+                    src="https://www.youtube.com/embed/SOa1XefsF2U"
                     width="100%" 
                     height="400" 
                     frameborder="0" 
